@@ -24,8 +24,18 @@ turtle.setheading(degrees)
 The turtle starts at position(0, 0) with heading 0 degrees.
 """
 
-### YOUR CODE STARTS HERE
 
+### YOUR CODE STARTS HERE
+degrees = 10
+
+
+turtle.speed(10)
+
+for i in range(75):
+    dtsf = degrees*i
+    turtle.forward(2 * (phi**(dtsf / 90)))
+    turtle.right(degrees)
+    
 
 ### YOUR CODE ENDS HERE
 
